@@ -1,0 +1,128 @@
+.profileHeader {
+}
+
+.coverImage {
+  width: 100%;
+  background-color: #272a2d;
+  height: 300px;
+  border-radius: 16px;
+}
+
+.profilePicture {
+  width: 132px;
+  height: 132px;
+  border-radius: 132px;
+  vertical-align: inherit;
+  outline: 3px solid rgba(255, 255, 255, 0.1);
+  margin-top: -72px;
+  margin-left: 5%;
+}
+
+.profileName {
+  margin-left: 2.5%;
+}
+
+.tabs {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.tab {
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  transition: color 0.1s ease-in-out;
+}
+
+.tab:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.activeTab {
+  color: rgba(255, 255, 255, 1);
+  border-bottom: 2px solid #0294fe;
+  color: #0294fe;
+}
+
+.tabContent {
+  display: none;
+  height: 0px;
+  opacity: 0;
+  transition: all 0.1s linear;
+}
+
+.activeTabContent {
+  display: flex;
+  flex-direction: row;
+  opacity: 1;
+}
+
+
+.heroAssetFrame {
+  display: flex;
+  justify-content: center;
+  margin: 24px auto 0;
+  padding: 2em;
+  overflow: hidden;
+}
+
+.heroAsset {
+  max-width: 100vw;
+  margin-bottom: 16px;
+}
+
+.heroBodyContainer {
+  width: 100%;
+  padding: 0 32px;
+  margin: 0 auto;
+}
+
+.heroBody {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heroTitle {
+  margin-top: clamp(-30px, calc(-7vw + 57px), 5px);
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: Min(12vw, 80px);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-align: center;
+  overflow: visible;
+  letter-spacing: -0.05em;
+}
+
+.heroTitleGradient {
+  padding-right: 12px;
+  font-weight: 700;
+}
+
+.heroSubtitle {
+  max-width: 640px;
+  margin: 0 0 40px;
+  color: hsla(0, 0%, 100%, 0.4);
+  font-size: Min(3.8vw, 20px);
+  letter-spacing: 0.3px;
+  line-height: 140%;
+  text-align: center;
+  transform: translateY(5px);
+}
+
+.heroCtaContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
