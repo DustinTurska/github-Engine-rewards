@@ -1,4 +1,4 @@
-# NFT Marketplace V3
+# Reward open source contributions with thirdweb Engine!
 
 Create an NFT marketplace on top of your NFT collection on **any** EVM-compatible blockchain.
 
