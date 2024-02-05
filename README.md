@@ -1,60 +1,12 @@
-# NFT Marketplace V3
+# Reward open source contributions with thirdweb Engine!
 
-Create an NFT marketplace on top of your NFT collection on **any** EVM-compatible blockchain.
+To claim an NFT, fork this repo, update a few things (_Adding your name at the bottom of the read-me works as well :P_)then open a pull request. 
 
-## Installation
+In the PR description, past the wallet address you wish to have your NFT minted to, then submit the PR!
 
-Install via [thirdweb create](https://portal.thirdweb.com/cli/create)
+Once submitted, Engine will mint an NFT directly to the wallet you added in the body of the pull request. 
+<img width="1264" alt="Screenshot 2024-02-03 at 5 32 46 PM" src="https://github.com/DustinTurska/github-Engine-rewards/assets/135719141/e0a85a45-ccdb-436b-a118-8d06cc089f08">
 
-```bash
-  npx thirdweb create --template marketplace-v3
-```
+-Dustin
 
-## Run Locally
-
-Install dependencies
-
-```bash
-  # npm
-  npm install
-
-  # yarn
-  yarn install
-```
-
-Start the server
-
-```bash
-  # npm
-  npm run start
-
-  # yarn
-  yarn start
-```
-
-## Environment Variables
-
-To run this project, you will need to add environment variables. Check the `.env.example` file for all the environment variables required and add it to `.env.local` file or set them up on your hosting provider.
-
-## Deployment
-
-Deploy a copy of your application to IPFS using the following command:
-
-```bash
-  yarn deploy
-```
-
-## Additional Resources
-
-- [Documentation](https://portal.thirdweb.com)
-- [Templates](https://thirdweb.com/templates)
-- [Video Tutorials](https://youtube.com/thirdweb_)
-- [Blog](https://blog.thirdweb.com)
-
-## Contributing
-
-Contributions and [feedback](https://feedback.thirdweb.com) are always welcome! Please check our [open source page](https://thirdweb.com/open-source) for more information.
-
-## Need help?
-
-For help, join the [discord](https://discord.gg/thirdweb) or visit our [support page](https://support.thirdweb.com).
+-Waren
