@@ -15,15 +15,7 @@ import {
   NFT_COLLECTION_ADDRESS,
 } from "../../const/contractAddresses";
 import styles from "../../styles/Profile.module.css";
-import randomColor from "../../util/randomColor";
 import Link from "next/link";
-
-const [randomColor1, randomColor2, randomColor3, randomColor4] = [
-  randomColor(),
-  randomColor(),
-  randomColor(),
-  randomColor(),
-];
 
 export default function ProfilePage() {
   const router = useRouter();

@@ -22,6 +22,12 @@ export function Navbar() {
               alt="thirdweb logo"
             />
           </Link>
+
+          <div className={styles.navMiddle}>
+            <Link href="/contributors" className={styles.link}>
+              Contributors
+            </Link>
+          </div>
         </div>
 
         <div className={styles.navRight}>
