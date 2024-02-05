@@ -6,10 +6,9 @@ In the PR title, paste the wallet address you wish to have your NFT minted to, t
 
 Once accepted and merged, Engine will mint an NFT directly to the wallet you added. 
 
-<img width="1264" alt="Screenshot 2024-02-03 at 5 32 46 PM" src="https://github.com/DustinTurska/github-Engine-rewards/assets/135719141/e0a85a45-ccdb-436b-a118-8d06cc089f08">
+<img width="1265" alt="Screenshot 2024-02-04 at 9 00 10 PM" src="https://github.com/DustinTurska/github-Engine-rewards/assets/135719141/fe017aa0-d545-4014-8f3e-53a240a49d4c">
+
 
 -Dustin
 
 -Waren
-
--Dustin test 2.1.0
